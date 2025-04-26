@@ -2,6 +2,99 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(90, 1, 31);
+}
+
+header p {
+  text-align: center;
+  color: rgb(90, 1, 31);
+}
+
+h2 {
+  color: rgb(90, 1, 31);
+  text-align: center;
+}
+
+body {
+  background: #f8d3e9;
+  color: rgb(90, 1, 31);
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+h1:hover {
+  color: rgb(255, 5, 101);
+  cursor: pointer;
+}
+h2:hover {
+  color: rgb(255, 5, 101);
+  cursor: pointer;
+}
+
+section {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.display-pic {
+  border-radius: 150px;
+  margin: 15px;
+  box-shadow: 10px 10px 15px rgb(90, 1, 31);
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.content {
+  max-width: 900px;
+}
+
+.about-skill {
+  margin: 18px;
+}
+.about {
+  margin: 15px;
+}
+
+.skill {
+  margin: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+  justify-content: center;
+  margin: 40px;
+}
+
+.grid img {
+  border-radius: 150px;
+  border: 2px solid #7e0433;
+}
+
+.contact {
+  text-align: center;
 }
 
 /*title text style*/
